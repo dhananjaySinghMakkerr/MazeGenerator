@@ -41,7 +41,7 @@ function cell(i,j)
     var x=this.i*size;
     var y=this.j*size;
     noStroke();
-    fill(255,0,0,0);
+    fill(100);
     rect(x,y,size,size);
   }
   this.checkNeighbors=function()
