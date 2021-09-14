@@ -97,7 +97,7 @@ function removeWalls(a,b)
 }
 function setup() {
 
-  createCanvas(100,100);
+  createCanvas(800,800);
   cols=floor(width/size);
   rows=floor(height/size);
   frameRate(5);
