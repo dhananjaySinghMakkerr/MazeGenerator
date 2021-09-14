@@ -1,4 +1,4 @@
-var size=10;
+var size=40;
 var current;
 var rows,cols;
 var grid=[];
@@ -97,7 +97,7 @@ function removeWalls(a,b)
 }
 function setup() {
 
-  createCanvas(700,700);
+  createCanvas(800,800);
   cols=floor(width/size);
   rows=floor(height/size);
   frameRate(5);
